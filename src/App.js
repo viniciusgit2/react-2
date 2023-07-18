@@ -11,9 +11,12 @@ import Parouimpar from './componentes/Parouimpar';
 import Input from './componentes/Input';
 import Contador from './componentes/contadador';
 import Soma from './componentes/Soma';
+import Mega from './Mega';
 function App() {
   return (
     <div className="App">
+      
+      <Mega></Mega>
     <Soma></Soma>
       <Contador numero={0}></Contador>
       <Input></Input>
