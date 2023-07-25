@@ -1,3 +1,61 @@
+
+.Calculadora{
+  height: 530px;
+  width: 753px;
+  border-radius: 360px;
+  overflow: hidden;
+  background-color: crimson;
+  color: whitesmoke;
+ display: grid;
+ grid-template-columns: repeat(auto);
+ grid-template-rows:auto;
+ margin: auto;
+
+}
+.Botao{
+  border-radius: 360px;
+  margin: auto;
+--bg-button:whitesmoke;
+overflow:hidden ;
+height: 130px;
+width: 550px;
+display:grid;
+grid-template-columns: repeat(3,35%);
+}
+
+.Botao.active{
+background-color: aquamarine;
+
+}
+.Botao.double{
+  grid-column: span 2;
+}
+ .Botao.triple{
+  grid-column: span 3;
+ }
+ .Botao.operation{
+  background-color: darkorange;
+  color: blanchedalmond;
+ }
+ .Botao.active:active{
+background-color: grey;
+
+ }
+.Display{
+  background-color: gold;
+  display: flex;
+  height: 332px;
+  justify-content:flex-end;
+  align-items: center;
+  padding: 2px;
+  font-size: x-small;
+  text-shadow: black;
+  font-size: 1.4em;
+ border:black;
+ padding: 20px;
+
+}
+
 .App {
   text-align: center;
 }
@@ -21,7 +79,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {

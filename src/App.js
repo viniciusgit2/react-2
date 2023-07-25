@@ -12,10 +12,11 @@ import Input from './componentes/Input';
 import Contador from './componentes/contadador';
 import Soma from './componentes/Soma';
 import Mega from './Mega';
+import Calculadora from './calc/Calculdadora';
 function App() {
   return (
     <div className="App">
-      
+      <Calculadora/>
       <Mega></Mega>
     <Soma></Soma>
       <Contador numero={0}></Contador>
