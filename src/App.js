@@ -17,7 +17,9 @@ function App() {
   return (
     <div className="App">
       <Calculadora/>
-      <Mega></Mega>
+      <Mega/>'primeiro'
+      <Mega/>'segundo'
+      <Mega/>'terceiro'
     <Soma></Soma>
       <Contador numero={0}></Contador>
       <Input></Input>

@@ -1,11 +1,8 @@
 import React from "react"
 export default function Mega(){
-    const numeros = [1, 2, 3, 4, 5,6,7,8,9];
-    return (numeros[3]); 
-    
-  
+    const max=[100]
+const min=[1]
+  return (max-min *(min)+1/Math.random())
 
-
-    }
-  console.log(Mega)
+}
 
