@@ -20,8 +20,8 @@ function App() {
       <Mega/>'primeiro'
       <Mega/>'segundo'
       <Mega/>'terceiro'
-    <Soma></Soma>
-      <Contador numero={0}></Contador>
+    <Soma>'soma'</Soma>
+      <Contador numero={0}>'contador'</Contador>
       <Input></Input>
           <Card></Card>
           <Listaaluno></Listaaluno>
